@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geodesics"
+version = "0.1.0"
+description = "Symbolic metrics, numerical geodesics and black-hole accretion-disk ray tracing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "sympy>=1.12",
+    "plotly>=5",
+    "matplotlib>=3.7",
+    "ipython",
+]
+
+[project.optional-dependencies]
+nn = ["torch>=2.0"]
+dev = ["jupyter", "nbstripout"]
+
+[tool.setuptools.packages.find]
+include = ["geodesics*"]
