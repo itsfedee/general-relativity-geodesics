@@ -1,6 +1,6 @@
 # Geodesics & Black-Hole Ray Tracing
 
-A Python toolkit for computing geodesics in general-relativistic spacetimes and rendering black-hole images by ray tracing, with an exploratory machine-learning speed-up (work in progress).
+A Python toolkit for computing geodesics in general-relativistic spacetimes and rendering black-hole images by ray tracing, with an exploratory machine learning speed up (work in progress).
 
 ![Schwarzschild geodesics for a massless particle](figures/schw_geodesic.png)
 
