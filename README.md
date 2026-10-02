@@ -1,8 +1,8 @@
-# geodesics
+# Geodesics & Black-Hole Ray Tracing
 
-Symbolic spacetime metrics, numerical geodesics, and black-hole accretion-disk ray tracing in Python (sympy + scipy + plotly).
+A Python toolkit for computing geodesics in general-relativistic spacetimes and rendering black-hole images by ray tracing, with an exploratory machine-learning speed-up (work in progress).
 
-![Schwarzschild accretion disk seen at 17 degrees](figures/schwarzschild_disk_17deg.png)
+![Schwarzschild geodesics for a massless particle](figures/schw_geodesic.png)
 
 ## What it does
 
